@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form>
+      Nombre: <input type="text" name="nombre" value="" maxlength="30" /><br />
+      Apellidos: <input type="text" name="apellidos" value="" maxlength="30" /><br />
+      Email: <input required type="text" name="email" value="" /><br />
+      Asunto:
+      <select name="asunto" size="3">
+        <option value="presupuesto">Pedir presupuesto</option>
+        <option value="cita-previa">Solicitar cita previa</option>
+        <option value="otros">Otros</option></select
+      ><br />
+      ¿Cómo nos ha conocido?:
+      <select name="conocido" multiple>
+        <option value="amigo">un amigo</option>
+        <option value="google">googleando</option>
+        <option value="buzon">buzoneo</option>
+        <option value="otros">otros</option>
+      </select>
+      <br />
+      Mensaje: <input type="text" maxlength="300" /><br />
+      Cláusula RGPD:
+      <blockquote>
+        He leído y acepto el <a href="#">aviso legal</a> y la <a href="#">política de privacidad</a>
+        <input type="checkbox" required />
+      </blockquote>
+      <br />
+      <input type="submit" value="Ahí va eso" />
+    </form>
+  </body>
+</html>
