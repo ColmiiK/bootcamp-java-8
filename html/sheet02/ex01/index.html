@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atributo role</title>
+  </head>
+  <body>
+    <!-- Banner -->
+    <header>
+      <!-- Heading -->
+      <h1>Título de la página</h1>
+      <!-- Navigation -->
+      <nav>
+        <!-- Links -->
+        <a href="">Enlace</a>
+        <a href="">Enlace</a>
+        <a href="">Enlace</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Heading -->
+      <h1>Título de la página</h1>
+      <!-- Paragraph -->
+      <p>Lorem ipsum dolor sit amet.</p>
+      <!-- Article -->
+      <article>
+        <!-- Heading -->
+        <h2>Título del artículo</h2>
+        <!-- Paragraph -->
+        <p>Lorem ipsum dolor sit amet</p>
+        <!-- Link -->
+        <a href="">Saber más</a>
+      </article>
+      <div role="article">
+        <div id="title" aria-describedby="description">Título del artículo</div>
+        <div id="description" aria-labelledby="title">Lorem ipsum dolor sit amet</div>
+        <div role="link">Saber más</div>
+      </div>
+    </main>
+    <!-- Content Info -->
+    <footer>&copy; 2025</footer>
+  </body>
+</html>
+
+<!-- Se debe usar 'role' cuando no se pueda extraer -->
+<!-- la información semántica de los elementos, -->
+<!-- es decir, cuando se usen elementos sin valor semántico, -->
+<!-- se debe usar 'role' para dar de ese valor. -->
+<!---->
+<!-- Si por el contrario, el elemento ya tiene valor semántico, -->
+<!-- como un 'article' o un 'a', no se debe sobreescribir ese valor, -->
+<!-- ya que es más frágil y complicado de mantener -->
