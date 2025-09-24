@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formularios esenciales</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Información de registro</legend>
+        <label>Nombre <input type="text" name="name" autocomplete="name" /></label><br />
+        <label>Email <input type="email" name="email" autocomplete="email" /></label><br />
+        <label>Contraseña <input id="password" type="password" name="password" autocomplete="new-password" /><br /></label>
+        <label>Términos y condiciones <input id="checkbox" type="checkbox" name="checkbox" /><br /></label>
+        <input value="Enviar" type="submit" name="submit" /><br />
+        <p aria-label="texto-de-ayuda">Introduzca una contraseña de 8 a 16 carácteres con un símbolo especial ($%&,._) y un número</p>
+      </fieldset>
+    </form>
+  </body>
+</html>
