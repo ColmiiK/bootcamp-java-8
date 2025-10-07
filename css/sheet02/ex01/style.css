@@ -1,0 +1,143 @@
+* {
+  /* border: 1px dotted red; */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24px 0 24px;
+}
+
+header a {
+  margin: 10px;
+}
+#header-nav-list {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 4px 16px 4px 16px;
+  font-size: 10px;
+  transition: 0.3s;
+  margin-left: 20px;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+#free-trial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 72px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#free-trial > button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px 12px 24px;
+  border-radius: 3px;
+  font-size: 10px;
+  transition: 0.3s;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+#value-proposition-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#value-proposition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  max-width: 500px;
+}
+
+#propositions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+#propositions > section {
+  margin: 10px;
+}
+
+.black_square {
+  width: 200px;
+  height: 200px;
+}
+
+.learn-more {
+  font-size: 8px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 36px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+}
+
+#footer-nav {
+  display: flex;
+  font-size: 10px;
+}
+
+footer section {
+  margin: 0 25px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+.footer-nav-list > a {
+  margin-top: 10px;
+}
