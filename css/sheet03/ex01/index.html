@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokédex</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <input class="search-box" type="text" name="filter" placeholder="Filtra pokemons por nombre..." />
+    </header>
+    <div class="ear ear__left"></div>
+    <div class="ear ear__right"></div>
+    <div class="cheek cheek__left"></div>
+    <div class="cheek cheek__right"></div>
+    <main>
+      <!-- Bulbasaur -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="" />
+          <div class="card__id">ID/1</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Bulbasaur</p>
+          <div class="card__type">Grass</div>
+          <div class="card__type">Poison</div>
+        </div>
+      </article>
+
+      <!-- Ivysaur -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="" />
+          <div class="card__id">ID/2</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Ivysaur</p>
+          <div class="card__type">Grass</div>
+          <div class="card__type">Poison</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Bulbasaur</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Venusaur -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="" />
+          <div class="card__id">ID/3</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Venusaur</p>
+          <div class="card__type">Grass</div>
+          <div class="card__type">Poison</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Ivysaur</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Charmander -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="" />
+          <div class="card__id">ID/4</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Charmander</p>
+          <div class="card__type">Fire</div>
+        </div>
+      </article>
+
+      <!-- Charmeleon -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="" />
+          <div class="card__id">ID/5</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Charmeleon</p>
+          <div class="card__type">Fire</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Charmander</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Charizard -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="" />
+          <div class="card__id">ID/6</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Charizard</p>
+          <div class="card__type">Fire</div>
+          <div class="card__type">Flying</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Charmeleon</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Squirtle -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="" />
+          <div class="card__id">ID/7</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Squirtle</p>
+          <div class="card__type">Water</div>
+        </div>
+      </article>
+
+      <!-- Wartortle -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png" alt="" />
+          <div class="card__id">ID/8</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Wartortle</p>
+          <div class="card__type">Water</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Squirtle</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Blastoise -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" alt="" />
+          <div class="card__id">ID/9</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Blastoise</p>
+          <div class="card__type">Water</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Wartortle</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Caterpie -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png" alt="" />
+          <div class="card__id">ID/10</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Caterpie</p>
+          <div class="card__type">Bug</div>
+        </div>
+      </article>
+
+      <!-- Metapod -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png" alt="" />
+          <div class="card__id">ID/11</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Metapod</p>
+          <div class="card__type">Bug</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Caterpie</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Butterfree -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png" alt="" />
+          <div class="card__id">ID/12</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Butterfree</p>
+          <div class="card__type">Bug</div>
+          <div class="card__type">Flying</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Metapod</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Weedle -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png" alt="" />
+          <div class="card__id">ID/13</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Weedle</p>
+          <div class="card__type">Bug</div>
+          <div class="card__type">Poison</div>
+        </div>
+      </article>
+
+      <!-- Kakuna -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png" alt="" />
+          <div class="card__id">ID/14</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Kakuna</p>
+          <div class="card__type">Bug</div>
+          <div class="card__type">Poison</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Weedle</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Beedrill -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png" alt="" />
+          <div class="card__id">ID/15</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Beedrill</p>
+          <div class="card__type">Bug</div>
+          <div class="card__type">Poison</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Kakuna</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Pidgey -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png" alt="" />
+          <div class="card__id">ID/16</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Pidgey</p>
+          <div class="card__type">Normal</div>
+          <div class="card__type">Flying</div>
+        </div>
+      </article>
+
+      <!-- Pidgeotto -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png" alt="" />
+          <div class="card__id">ID/17</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Pidgeotto</p>
+          <div class="card__type">Normal</div>
+          <div class="card__type">Flying</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Pidgey</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Pidgeot -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png" alt="" />
+          <div class="card__id">ID/18</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Pidgeot</p>
+          <div class="card__type">Normal</div>
+          <div class="card__type">Flying</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Pidgeotto</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Rattata -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png" alt="" />
+          <div class="card__id">ID/19</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Rattata</p>
+          <div class="card__type">Normal</div>
+        </div>
+      </article>
+
+      <!-- Raticate -->
+      <article class="card">
+        <div class="card__background">
+          <img class="card__image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png" alt="" />
+          <div class="card__id">ID/20</div>
+        </div>
+        <div class="card__info">
+          <p class="card__name">Raticate</p>
+          <div class="card__type">Normal</div>
+          <div class="card__evolution">
+            <p class="card__evolution-text">Evoluciona de:</p>
+            <p class="card__evolution-parent">Rattata</p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
